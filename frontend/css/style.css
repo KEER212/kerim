@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mukta", sans-serif;
+}
+
+.content {
+  height: auto;
+  margin: auto;
+  max-width: 1200PX;
+  min-width: 350px;
+}
+
+.nav__menu {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+  align-items: center;
+}
+
+.nav__logo {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  color: #244D4D;
+}
+
+.nav__text {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 100px;
+}
+
+.nav__text li {
+  list-style: none;
+}
+
+.nav__text a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #161616;
+}
+
+.nav__search img {
+  width: 40px;
+  height: auto;
+  padding-left: 20px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 26px 0;
+}
+
+.main img {
+  width: 411px;
+  height: 560px;
+  left: 0px;
+  top: 0px;
+}
+
+.main__bg-green {
+  width: 1200px;
+  height: 560px;
+  left: 0px;
+  top: 0px;
+  background-color: #154444;
+}
+
+.bg-green__text {
+  padding: 0px 70px;
+  padding-top: 100px;
+  align-items: center;
+}
+
+.bg-green__text h1 {
+  width: 600px;
+  height: 136px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 68px;
+  padding-bottom: 25px;
+  color: #FFFFFF;
+}
+
+.bg-green__text p {
+  width: 400px;
+  height: 136px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  /* or 125% */
+  color: #FFFFFF;
+}
+
+.btn {
+  border: 0px;
+  margin: 0px 70px;
+  padding: 15px 27px;
+  width: 172px;
+  height: 56px;
+  background: #FFFFFF;
+  transition: 0.6s;
+}
+
+.btn a {
+  align-items: center;
+  text-decoration: none;
+  width: 121px;
+  height: 25px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  /* identical to box height, or 125% */
+  color: #154444;
+}/*# sourceMappingURL=style.css.map */
+.btn:hover{
+  margin: 0px 70px;
+  border: 2px solid#FFFFFF;
+  background-color: #244D4D;
+  color: #FFFFFF;
+  transition: 0.6s;
+ 
+  
+
+}
+.btn a:hover{
+  color: #FFFFFF;
+}
