@@ -18,12 +18,12 @@
 //js()
 
 //function text(){
-    let text = 'lorem'
-    if(text =='lorem'){
+ //   let text = 'lorem'
+ //   if(text =='lorem'){
 //console.log('увас ощибка в тексте');
-    }else{
+ //   }else{
 //        console.log('содержимое переменной:'+ text);
-    }
+//}
 //}
 //text()
 let neme ='Kerim'  //string
@@ -66,5 +66,36 @@ function form(a, b, c){
         return num % 2 !== 0 ? num : num2
     }
   }
-  console.log(sum(3, 3));
 
+ // console.log(sum(3, 3));
+let man = {
+    neme : 'kerim Ars',
+    boz : '17' ,
+    rost : '175cm',
+    emil : 'rerim095@gmail.com' ,
+    pasword : '313233',
+    money : '100000RUB' ,
+    ed : function () {
+        if(man.pasword == ker ){
+            console.log(`Добро пожаловать ${man.neme}`);
+        }else{
+            console.log(`Указанный пороль ${ker} неверен.Попробуйте ещё раз .`);
+        }
+    },
+    /////////////////////
+    address: {
+    republik : 'Чеченская республика',
+    city : 'Город Грозный',
+    street:'Горная ул.33',
+    },
+}
+let ker = '313233';
+ function ed () {
+    if(man.pasword == ker ){
+        console.log(`Добро пожаловать ${man.neme}`);
+    }else{
+        console.log(`Указанный пороль ${ker} неверен.Попробуйте ещё раз .`);
+    }
+}
+ed()
+console.log(man);
