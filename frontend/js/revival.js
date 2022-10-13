@@ -154,19 +154,15 @@ let e2=e.filter(function(item, key){
 })
 
 
-let arrr =[5, 6, 7, 8, 9];
-let arr2=arrr.map(function(item, key) {
+let arr =[5, 6, 7, 8, 9];
+let arr2=arr.map(function(item, key) {
 return item ** 2 
 })
-/////////////////////////:::::::::::::::::::/:::::::
-let arr =[{a:10, b:5},{a:20, b:22},{a:131, b:55}];
-let ar2=arr.map(function(item, key) {
+let ars =[{a:10, b:5},{a:20, b:22},{a:131, b:55}];
+let ars2=ars.map(function(item, key) {
+  return item.a + item.b;
 })
-ar2.forEach(function(item, key) {
-  console.log(a + b);
-})
-//не сделад
-//////////////////////////////////:::::::::::::::::::::::::
+
 
 let kerim =[-13, 0, 12, 1662, -0.32, -102, -2]
 let kerim2 =kerim.filter(function(item, key){
@@ -175,11 +171,15 @@ let kerim2 =kerim.filter(function(item, key){
 let kerim3=kerim2.reduce(function(sum, item, key){
   return sum + item
 })
-
+let expo =[{x:10, y:"lorem"},{x:-17, y:"lorem"},{x:156, y:"lorem"}];
+let expo2 = expo.reduce(function(sum, item){
+  return sum + item.x
+},0)
 
 console.log(c2)
 console.log(d2)
 console.log(e2)
 console.log(arr2)
-console.log(ar2)
+console.log(ars2)
 console.log(kerim3)
+console.log(expo2)
