@@ -121,65 +121,98 @@
 //console.log(em);
 ///////////////////////////////////////::::::::::
 //let number =[1, 3, 5, 7, 9];
-//em.splice(0, 5, '2','6','10','14','18')
+
 //em.splice(1, 3, '4','4','4')
-//console.log(em);
+//console.log(number[1] + 1);
 //
 //
-let  a =[10, 2762, 0.42, 192, 3, 28, 1125, 2018, 34, 66];
-a.forEach(function  (item, key, arr) {
-  if(item % 2 != 0){
-    console.log(0.42, 3, 1125);
+//a.forEach(function  (item, key, arr) {
+//  let  a =[10, 2762, 0.42, 192, 3, 28, 1125, 2018, 34, 66];
+//  if(item % 2 != 0){
+//    console.log(0.42, 3, 1125);
+//  }
+//})
+// 
+//
+//let b =["lorem ipsum", "javaskript", "php", "css", "react", "git", "html", "mysg"]
+//b.forEach(function(item, key){
+//  if(item.length < 4){
+//console.log( "php", "css", "git")
+//  }
+//})
+//let c =[1, -3, , 5, 6, -7, 8, 9, -11]
+//let c2 = c.filter(function(item, key){
+//    return(item < 0)
+//})
+//let  d =[10, 2762, 0.42, 192, 3, 28, 1125, 2018, 34, 66];
+//let d2 = d.filter(function(item, key){
+//  return(item % 3  )
+//})
+//let e =["lorem ipsum", "javaskript", "php", "css", "react", "git", "html", "mysg"]
+//let e2=e.filter(function(item, key){
+//    return(item.length > 3)
+//})
+//
+//
+//let arr =[5, 6, 7, 8, 9];
+//let arr2=arr.map(function(item, key) {
+//return item ** 2 
+//})
+//let ars =[{a:10, b:5},{a:20, b:22},{a:131, b:55}];
+//let ars2=ars.map(function(item, key) {
+//  return item.a + item.b;
+//})
+//
+//
+//let kerim =[-13, 0, 12, 1662, -0.32, -102, -2]
+//let kerim2 =kerim.filter(function(item, key){
+//  return item < 0
+//})
+//let kerim3=kerim2.reduce(function(sum, item, key){
+//  return sum + item
+//})
+//let expo =[{x:10, y:"lorem"},{x:-17, y:"lorem"},{x:156, y:"lorem"}];
+//let expo2 = expo.reduce(function(sum, item){
+//  return sum + item.x
+//},0)
+//
+//console.log(c2)
+//console.log(d2)
+//console.log(e2)
+//console.log(arr2)
+//console.log(ars2)
+//console.log(kerim3)
+//console.log(expo2)
+let arr_1 = [101, 202, 303, 404, 505]
+
+ let arr_2= [...arr_1,606, 707, 808, 909]
+ let superArr = [...arr_2]
+let min = Math.min.apply(null,superArr)
+//////////////////////////////////////////////
+ //let obj = {width:300, hedth:500}
+ //let obj = {width:300, hedth:500}
+// let obj__2 = {...obj}
+// obj__2.forEach(function(item, key) {
+//  return item + item
+//})
+  function a(...a) {
+    a.forEach(item =>{
+      console.log(item + item);
+    })
   }
-})
- 
-
-let b =["lorem ipsum", "javaskript", "php", "css", "react", "git", "html", "mysg"]
-b.forEach(function(item, key){
-  if(item.length < 4){
-console.log( "php", "css", "git")
+  let num = '@';
+  do{
+     console.log(`4ucno:${num}`);
+ num++;
   }
-})
-let c =[1, -3, , 5, 6, -7, 8, 9, -11]
-let c2 = c.filter(function(item, key){
-    return(item < 0)
-})
-let  d =[10, 2762, 0.42, 192, 3, 28, 1125, 2018, 34, 66];
-let d2 = d.filter(function(item, key){
-  return(item % 3  )
-})
-let e =["lorem ipsum", "javaskript", "php", "css", "react", "git", "html", "mysg"]
-let e2=e.filter(function(item, key){
-    return(item.length > 3)
-})
+while( num < 3 )
+let i = 0
+while( i < 11 ){
+  console.log(i);
+  i++;
+}
+  
 
-
-let arr =[5, 6, 7, 8, 9];
-let arr2=arr.map(function(item, key) {
-return item ** 2 
-})
-let ars =[{a:10, b:5},{a:20, b:22},{a:131, b:55}];
-let ars2=ars.map(function(item, key) {
-  return item.a + item.b;
-})
-
-
-let kerim =[-13, 0, 12, 1662, -0.32, -102, -2]
-let kerim2 =kerim.filter(function(item, key){
-  return item < 0
-})
-let kerim3=kerim2.reduce(function(sum, item, key){
-  return sum + item
-})
-let expo =[{x:10, y:"lorem"},{x:-17, y:"lorem"},{x:156, y:"lorem"}];
-let expo2 = expo.reduce(function(sum, item){
-  return sum + item.x
-},0)
-
-console.log(c2)
-console.log(d2)
-console.log(e2)
-console.log(arr2)
-console.log(ars2)
-console.log(kerim3)
-console.log(expo2)
+a(1122,122333,1231231)
+console.log(superArr)
+console.log(min);
