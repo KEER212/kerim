@@ -183,36 +183,52 @@
 //console.log(ars2)
 //console.log(kerim3)
 //console.log(expo2)
-let arr_1 = [101, 202, 303, 404, 505]
+//let arr_1 = [101, 202, 303, 404, 505]
+//
+// let arr_2= [...arr_1,606, 707, 808, 909]
+// let superArr = [...arr_2]
+//let min = Math.min.apply(null,superArr)
+////////////////////////////////////////////////
+// //let obj = {width:300, hedth:500}
+// //let obj = {width:300, hedth:500}
+//// let obj__2 = {...obj}
+//// obj__2.forEach(function(item, key) {
+////  return item + item
+////})
+//  function a(...a) {
+//    a.forEach(item =>{
+//      console.log(item + item);
+//    })
+//  }
+//  let num = '@';
+//  do{
+//     console.log(`4ucno:${num}`);
+// num++;
+//  }
+//while( num < 3 )
+//let i = 0
+//while( i < 11 ){
+//  console.log(i);
+//  i++;
+//}
+//  
+//
+//a(1122,122333,1231231)
+//console.log(superArr)
+//console.log(min);
+<ol id="ol"></ol>
 
- let arr_2= [...arr_1,606, 707, 808, 909]
- let superArr = [...arr_2]
-let min = Math.min.apply(null,superArr)
-//////////////////////////////////////////////
- //let obj = {width:300, hedth:500}
- //let obj = {width:300, hedth:500}
-// let obj__2 = {...obj}
-// obj__2.forEach(function(item, key) {
-//  return item + item
-//})
-  function a(...a) {
-    a.forEach(item =>{
-      console.log(item + item);
-    })
-  }
-  let num = '@';
-  do{
-     console.log(`4ucno:${num}`);
- num++;
-  }
-while( num < 3 )
-let i = 0
-while( i < 11 ){
-  console.log(i);
-  i++;
-}
-  
-
-a(1122,122333,1231231)
-console.log(superArr)
-console.log(min);
+    let ol = document.getElementById('ol')
+    let li = document.createElement('li')
+    let la = document.createElement('li')
+    let lu = document.createElement('li')
+    let ll = document.createElement('li')
+    console.log(li);
+    li.append('iii')
+    la.prepend('lorem')
+    lu.append('lorem')
+    ll.append('lorem')
+    ol.append(li)
+    ol.append(la)
+    ol.append(lu)
+    ol.append(ll)
